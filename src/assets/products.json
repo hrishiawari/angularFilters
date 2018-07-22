@@ -1,0 +1,212 @@
+{
+    "products": [
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/sac/sac1530381127.jpg",
+            "product_price": "100",
+            "product_name": "iPhone",
+            "vendor_product_id": 2,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsu",
+            "discount": 10,
+            "vendor_name": "Test vendor",
+            "discounted_price": 90,
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/sac/sac1530381127.jpg",
+            "product_price": "200",
+            "product_name": "iPhone",
+            "vendor_product_id": 3,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsu",
+            "discount": 10,
+            "vendor_name": "Test vendor",
+            "discounted_price": 200,
+            "color": "red",
+            "Display": "5.9",
+            "RAM": "4 gb",
+            "Internal memmory": "32 GB",
+            "Camera": "12 MP",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/sac/sac1530381127.jpg",
+            "product_price": "130",
+            "product_name": "iPhone",
+            "vendor_product_id": 4,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsu",
+            "discount": 10,
+            "vendor_name": "Test vendor",
+            "discounted_price": 130,
+            "color": "silver",
+            "Display": "5.9",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/samsung galaxy s9/samsung galaxy s91530618791.jpg",
+            "product_price": "200",
+            "product_name": "samsung galaxy s9",
+            "vendor_product_id": 5,
+            "product_description": "samsung mobile",
+            "discount": 0,
+            "vendor_name": "Test vendor",
+            "discounted_price": 180,
+            "color": "red",
+            "RAM": "4 gb",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/New product/New product1531133979.jpg",
+            "product_price": "5000",
+            "product_name": "New product",
+            "vendor_product_id": 6,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem",
+            "discount": 0,
+            "vendor_name": "Test vendor",
+            "discounted_price": 5000,
+            "color": "red",
+            "Display": "5.9",
+            "RAM": "4 gb",
+            "Internal memmory": "32 GB",
+            "Camera": "12 MP",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/New product/New product1531133979.jpg",
+            "product_price": "250",
+            "product_name": "New product",
+            "vendor_product_id": 7,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem",
+            "discount": 0,
+            "vendor_name": "Test vendor",
+            "discounted_price": 250,
+            "color": "red",
+            "Display": "5.9",
+            "RAM": "4 gb",
+            "Internal memmory": "32 GB",
+            "Camera": "12 MP",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/New product/New product1531133979.jpg",
+            "product_price": "99",
+            "product_name": "New product",
+            "vendor_product_id": 8,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem",
+            "discount": 0,
+            "vendor_name": "Test vendor",
+            "discounted_price": 99,
+            "color": "red",
+            "Display": "5.9",
+            "RAM": "3 gb",
+            "Internal memmory": "32 GB",
+            "Camera": "12 MP",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/New product/New product1531133979.jpg",
+            "product_price": "30",
+            "product_name": "New product",
+            "vendor_product_id": 9,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem",
+            "discount": 0,
+            "vendor_name": "Test vendor",
+            "discounted_price": 30,
+            "color": "red",
+            "Display": "5.9",
+            "RAM": "3 gb",
+            "Internal memmory": "32 GB",
+            "Camera": "12 MP",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/Ipad/Ipad1531210437.png",
+            "product_price": "4500",
+            "product_name": "Ipad",
+            "vendor_product_id": 10,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsu",
+            "discount": 0,
+            "vendor_name": "Test vendor",
+            "discounted_price": 4500,
+            "color": "silver",
+            "RAM": "4 gb",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/samsung galaxy s9/samsung galaxy s91530618791.jpg",
+            "product_price": "500",
+            "product_name": "samsung galaxy s9",
+            "vendor_product_id": 11,
+            "product_description": "samsung mobile",
+            "discount": 0,
+            "vendor_name": "Test vendor",
+            "discounted_price": 500,
+            "color": "red",
+            "RAM": "4 gb",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/samsung galaxy s9/samsung galaxy s91530618791.jpg",
+            "product_price": "600",
+            "product_name": "samsung galaxy s9",
+            "vendor_product_id": 12,
+            "product_description": "samsung mobile",
+            "discount": 0,
+            "vendor_name": "Test vendor",
+            "discounted_price": 600,
+            "color": "red",
+            "RAM": "4 gb",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/sac/sac1530381127.jpg",
+            "product_price": "100",
+            "product_name": "iPhone",
+            "vendor_product_id": 13,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsu",
+            "discount": 10,
+            "vendor_name": "Test vendor",
+            "discounted_price": 90,
+            "color": "red",
+            "RAM": "4 gb",
+            "Internal memmory": "32 GB",
+            "Camera": "12 MP",
+            "in_wishlist": 0
+        },
+        {
+            "product_image": "http://159.203.89.161/laravel/shago-payments-admin/storage/app/uploads/products/sac/sac1530381127.jpg",
+            "product_price": "100",
+            "product_name": "iPhone",
+            "vendor_product_id": 14,
+            "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsu",
+            "discount": 10,
+            "vendor_name": "Test vendor",
+            "discounted_price": 90,
+            "color": "red",
+            "RAM": "4 gb",
+            "Internal memmory": "32 GB",
+            "Camera": "12 MP",
+            "in_wishlist": 0
+        }
+    ],
+    "attributes": {
+        "color": [
+            {"Value":"silver","selected":false},
+            {"Value":"red","selected":false}
+        ],
+        "Display": [
+            {"Value":"5.9","selected":false}
+
+        ],
+        "RAM": [
+             {"Value":"4 gb","selected":false}
+        ],
+        "Internal memmory": [
+             {"Value":"32 GB","selected":false}
+        ],
+        "Camera": [
+             {"Value":"12 MP","selected":false}
+        ]
+    },
+    "error": false,
+    "success": true,
+    "code": 200
+}

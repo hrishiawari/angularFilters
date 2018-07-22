@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-md-2" style="color:green;" *ngFor="let types of typesArray">
+        {{types}}
+        <div *ngFor="let values of typesJson[types]">
+          <input type="checkbox" [(ngModel)]="values.selected" (change)="applyFilter(types,values)" />{{values.Value}}
+        </div>
+      </div>
+      <!-- <input type="number" [(ngModel)]="min">
+      <input type="number" [(ngModel)]="max">
+      <button (click)="priceFilter(min,max)">ok</button> -->
+
+</div>
+
+
+
+<div class="row" >
+  <div class="col-md-2"  *ngFor="let products of filteredData">
+    <div class="card" style="background:rgb(43, 86, 226);color:white">
+        Name : <h3> {{products.product_name}} </h3>
+        product_price : <h3>{{products.product_price}}</h3>
+         color : <h3>{{products.color}}</h3>
+          RAM : <h3>{{products.RAM}}</h3>
+        Display :<h3> {{products.Display}}</h3>
+         Camera : <h3>{{products.Camera}}</h3>
+    </div>
+  </div>
+</div>
