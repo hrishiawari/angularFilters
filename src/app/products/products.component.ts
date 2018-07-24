@@ -20,6 +20,7 @@ export class ProductsComponent implements OnInit {
   max: any;
   filters = [];
   filteredData = [];
+  centralArray = [];
   typesArray = [];
   ngOnInit() {
     this.getdata();
@@ -36,25 +37,36 @@ export class ProductsComponent implements OnInit {
       })
   }
   priceFilter(min, max) {
-    this.filteredData = _.filter(this.rawData, function(o){
-      return o.product_price > 30 && o.product_price <200 
-    });
+    if (min !== null && min !== undefined && max !== null && min !== undefined) {
+      this.centralArray = _.filter(this.rawData, function (o) {
+        return o.product_price > min && o.product_price < max
+      });
+    } else {
+      this.centralArray = this.rawData;
+    }
   }
 
-  applyFilter(type, filter) {
-    let obj = {
-      type: type,
-      value: filter.Value
-    }
-    if (filter.selected == true) {
-      if (_.findIndex(this.filters, function (e) { return e.value == filter.Value; }) == -1) {
-        this.filters.push(obj)
+  applyFilter(type?, filter?) {
+    console.log(type,filter);
+    if(type !== undefined && filter !== undefined){
+      let obj = {
+        type: type,
+        value: filter.Value
       }
-    } else {
-      _.pullAllWith(this.filters, [obj], _.isEqual);
+      // this.priceFilter(this.min, this.max);
+      if (filter.selected == true) {
+        if (_.findIndex(this.filters, function (e) { return e.value == filter.Value; }) == -1) {
+          this.filters.push(obj)
+        }
+      } else {
+        _.pullAllWith(this.filters, [obj], _.isEqual);
+      }
     }
-    this.filteredData = this.filterService.filterData(this.rawData, this.filters)
-    // this.filteredData = this.filterService.filterData(this.filteredData, this.filters)
+    this.priceFilter(this.min, this.max);
+
+    
+    // this.filteredData = this.filterService.filterData(this.rawData, this.filters)
+    this.filteredData = this.filterService.filterData(this.centralArray, this.filters)
 
   }
 }

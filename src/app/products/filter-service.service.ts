@@ -6,7 +6,6 @@ import * as _ from "lodash";
 })
 
 export class FilterServiceService {
-
   constructor() { }
   newArray: any;
   logicArray = [];
